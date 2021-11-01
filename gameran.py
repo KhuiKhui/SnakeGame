@@ -17,7 +17,7 @@ listspeedfood = []
 bg = pygame.image.load("bg1.png")
 playerObj = player(pygame.image.load("hoatiet/hoatiet-2/head.png"),pygame.image.load("hoatiet/hoatiet-2/body.png"),pygame.image.load("hoatiet/hoatiet-2/tail.png"))
 
-#
+
 for i in range(101):
     listfood.append(food())
     listspeedfood.append(speedfood())
